@@ -1,0 +1,10 @@
+/* Program to delete the element at Nth position in list L to form list R */
+
+/* Case 1: Delete the first element */
+delete(1, [_ | T], T).
+
+/* Case 2: Move recursively until position N */
+delete(N, [H | T], [H | R]) :-
+    N > 1,
+    N1 is N - 1,
+    delete(N1, T, R).

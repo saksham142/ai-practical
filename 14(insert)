@@ -1,0 +1,10 @@
+/* Program to insert item I at Nth position in list L to form list R */
+
+/* Case 1: Insert at position 1 (front of list) */
+insert(I, 1, L, [I | L]).
+
+/* Case 2: Recursively move through the list until position N */
+insert(I, N, [H | T], [H | R]) :-
+    N > 1,
+    N1 is N - 1,
+    insert(I, N1, T, R).

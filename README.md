@@ -12,4 +12,4 @@
 
 4
 
-![image alt](
+![image alt](https://github.com/saksham142/ai-practical/blob/8db0240c93a338ed23b1c06bca6002be728c9526/Screenshot%202025-12-01%20184805.png)

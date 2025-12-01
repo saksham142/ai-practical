@@ -21,3 +21,7 @@
 6 
 
 ![image alt](https://github.com/saksham142/ai-practical/blob/53e9462d7b55fc80a7ba439b603bf0e68552d624/Screenshot%202025-12-01%20185926.png)
+
+7
+
+![image alt](https://github.com/saksham142/ai-practical/blob/8a74408d9544b0a4cd80e49eb0b6078019adbf50/Screenshot%202025-12-01%20190310.png)

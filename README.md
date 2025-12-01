@@ -13,3 +13,7 @@
 4
 
 ![image alt](https://github.com/saksham142/ai-practical/blob/8db0240c93a338ed23b1c06bca6002be728c9526/Screenshot%202025-12-01%20184805.png)
+
+5 
+
+![image alt](https://github.com/saksham142/ai-practical/blob/ad732e859bd396cade9b0635a00fbdb31b74e8a4/Screenshot%202025-12-01%20185552.png)

@@ -1,0 +1,11 @@
+/* Program to check even and odd length of a list */
+
+evenlength([]).                     % Empty list → even length
+
+evenlength([_ | T]) :-              % Remove two elements at a time
+    oddlength(T).
+
+oddlength([_]).                     % Single element → odd length
+
+oddlength([_ | T]) :-               % Remove two elements at a time
+    evenlength(T).

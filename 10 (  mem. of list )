@@ -1,0 +1,6 @@
+/* Program to check whether X is a member of list L */
+
+memb(X, [X | _]).          % Case 1: X is the head of the list
+
+memb(X, [_ | Tail]) :-     % Case 2: Search in the tail
+    memb(X, Tail).

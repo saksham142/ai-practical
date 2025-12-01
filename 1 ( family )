@@ -1,0 +1,75 @@
+male(ram).
+male(raj).
+male(mohan).
+male(anil).
+male(karan).
+
+female(sita).
+female(rina).
+female(kavita).
+female(pooja).
+female(sunita).
+
+parent(ram, raj).
+parent(ram, rina).
+parent(ram, mohan).
+
+parent(sita, raj).
+parent(sita, rina).
+parent(sita, mohan).
+
+parent(raj, anil).
+parent(raj, sunita).
+
+parent(kavita, anil).
+parent(kavita, sunita).
+
+parent(mohan, karan).
+parent(pooja, karan).
+
+father(F, C) :-
+    male(F),
+    parent(F, C).
+
+mother(M, C) :-
+    female(M),
+    parent(M, C).
+
+sibling(X, Y) :-
+    parent(P, X),
+    parent(P, Y),
+    X \= Y.
+
+brother(B, X) :-
+    sibling(B, X),
+    male(B).
+
+sister(S, X) :-
+    sibling(S, X),
+    female(S).
+
+grandparent(G, C) :-
+    parent(G, P),
+    parent(P, C).
+
+grandfather(G, C) :-
+    grandparent(G, C),
+    male(G).
+
+grandmother(G, C) :-
+    grandparent(G, C),
+    female(G).
+
+uncle(U, N) :-
+    parent(P, N),
+    brother(U, P).
+
+aunt(A, N) :-
+    parent(P, N),
+    sister(A, P).
+
+cousin(X, Y) :-
+    parent(P1, X),
+    parent(P2, Y),
+    sibling(P1, P2),
+    X \= Y.

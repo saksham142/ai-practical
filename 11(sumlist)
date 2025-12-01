@@ -1,0 +1,7 @@
+/* Program to find the sum of all elements in a list */
+
+sumlist([], 0).                % Base case: sum of empty list is 0
+
+sumlist([H | T], S) :-         % Recursive case
+    sumlist(T, S1),            % Sum of tail
+    S is H + S1.               % Add head to sum

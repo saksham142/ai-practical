@@ -38,3 +38,25 @@
 10
 
 ![image alt](https://github.com/saksham142/ai-practical/blob/9993080019c1cc0a65a5a507d92116ccff06e520/Screenshot%202025-12-01%20191329.png)
+
+11 
+
+![image alt](https://github.com/saksham142/ai-practical/blob/857e191ee3c6ebb85c2bd1f27e06de18e8fc5ab5/Screenshot%202025-12-01%20191756.png)
+
+
+12
+
+![image alt](https://github.com/saksham142/ai-practical/blob/857e191ee3c6ebb85c2bd1f27e06de18e8fc5ab5/Screenshot%202025-12-01%20191855.png)
+
+
+13
+
+![image alt](https://github.com/saksham142/ai-practical/blob/857e191ee3c6ebb85c2bd1f27e06de18e8fc5ab5/Screenshot%202025-12-01%20192011.png)
+
+14
+
+![image alt](https://github.com/saksham142/ai-practical/blob/857e191ee3c6ebb85c2bd1f27e06de18e8fc5ab5/Screenshot%202025-12-01%20192249.png)
+
+15
+
+![image alt](https://github.com/saksham142/ai-practical/blob/857e191ee3c6ebb85c2bd1f27e06de18e8fc5ab5/Screenshot%202025-12-01%20192341.png)
